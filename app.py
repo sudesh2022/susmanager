@@ -10,7 +10,7 @@ openai.api_key = st.secrets.API_KEY
 st.markdown("""
 <style>
     [data-testid=stSidebar] {
-        background-color: darkgreen;
+        background-color: lightblue;
     }
 </style>
 """, unsafe_allow_html=True)
