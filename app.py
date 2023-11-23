@@ -7,6 +7,37 @@ import streamlit as st
 
 openai.api_key = st.secrets.API_KEY
 
+st.markdown("""
+<style>
+    [data-testid=stSidebar] {
+        background-color: lightblue;
+    }
+</style>
+""", unsafe_allow_html=True)
+
+
+# app sidebar
+with st.sidebar:
+    st.markdown("""
+                # What can I ask ? 
+                """)
+    with st.expander("Click here to see FAQs"):
+        st.info(
+            f"""
+                - What is corelation between GHD Scope versus total energy consumption ?
+                - Do you think energy consumption is increasing linearly with copper production ? 
+                - which year water consumption is maximum ?
+                - Can you plot a graph of year versus water consumption ?
+                - How is the trend for energy consumption with copper production quantity ? 
+                - How many years it will take for me to reach net zero GHG Scope 1 based on the trends ?
+            """
+        )
+    st.caption(f"Report bugs to sudesh@sg.ibm.com ")
+
+with st.container():
+    col1,col2 = st.columns([8,3])
+
+
 st.title("Sustainability Manager ")
 st.caption("🚀 A streamlit chatbot to answer machine learning findings")
 if "messages" not in st.session_state:
