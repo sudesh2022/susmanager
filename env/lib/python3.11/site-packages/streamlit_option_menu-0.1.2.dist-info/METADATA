@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: streamlit-option-menu
+Version: 0.1.2
+Summary: streamlit-option-menu is a simple Streamlit component that allows users to select a single item from a list of options in a menu.
+Home-page: UNKNOWN
+Author: Victor Yan
+Author-email: victoryhb@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/plain
+License-File: LICENSE
+Requires-Dist: streamlit (>=0.63)
+
+UNKNOWN
+
