@@ -49,7 +49,7 @@ with st.container():
 
 if "messages" not in st.session_state.keys(): # Initialize the chat messages history
     st.session_state.messages = [
-        {"role": "assistant", "content": "This applicaton uses machine learning findings from Copper mines."}
+        {"role": "assistant", "content": "This applicaton answers queries on Science Based Targets Initiative."}
     ]
 
 
