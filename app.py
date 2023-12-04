@@ -1,4 +1,3 @@
-
 import streamlit as st
 from openai import OpenAI
 import openai
@@ -33,13 +32,11 @@ with st.sidebar:
     with st.expander("Click here to see FAQs"):
         st.info(
             f"""
-                - What is corelation between GHD Scope versus total energy consumption ?
-                - Do you think energy consumption is increasing linearly with copper production ? 
-                - which year water consumption is maximum ?
-                - Can you plot a graph of year versus water consumption ?
-                - How is the trend for energy consumption with copper production quantity ? 
-                - How many years it will take for me to reach net zero GHG Scope 1 based on the trends ?
-            """
+                - What is SBTi ?
+                - What are goals of SBTi 
+                - Can you summarize emission accounting requirements ?
+                - Which is the G20 country that has the maximum validated target and committed target in 2021 ? 
+             """
         )
     st.caption(f"Report bugs to sudesh@sg.ibm.com ")
 
