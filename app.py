@@ -36,6 +36,10 @@ with st.sidebar:
                 - What are goals of SBTi 
                 - Can you summarize emission accounting requirements ?
                 - Which is the G20 country that has the maximum validated target and committed target in 2021 ? 
+                - How the GHG emission targets are set by SBTi?
+                - What is the difference of 1.5 degree to 2 degree target approach?
+                - What approval is needed after finalising the GHG targets?
+                - For how many years we can set the GHG targets?
              """
         )
     st.caption(f"Report bugs to sudesh@sg.ibm.com ")
